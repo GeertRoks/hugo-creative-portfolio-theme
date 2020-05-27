@@ -1,2 +1,6 @@
 /* your styles go here */
 
+img[alt="A picture of me"] {
+    height: 40vh;
+    float: right;
+}
