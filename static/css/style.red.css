@@ -319,7 +319,6 @@ SIDEBAR + RIGHT COLUMN
 #sidebar {
   padding-top: 40px;
   background: #BA5240;
-  height: 100vh;
 }
 .sidebar-content {
     z-index: 0;
@@ -329,6 +328,10 @@ SIDEBAR + RIGHT COLUMN
   .sidebar-content {
     padding-left: 0px;
     padding-right: 18px;
+  }
+  #sidebar {  
+    height: 100vh;
+    position: fixed;
   }
 }
 .sidebar-heading {
@@ -404,6 +407,10 @@ SIDEBAR + RIGHT COLUMN
   .content-column-content {
     padding-left: 40px;
     padding-right: 40px;
+  }
+  .content-column {
+    position: absolute;
+    right: 0px;
   }
 }
 .content-column-content p.lead {

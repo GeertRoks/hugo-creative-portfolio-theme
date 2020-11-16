@@ -4,3 +4,15 @@ img[alt="A picture of me"] {
     height: 40vh;
     float: right;
 }
+
+.content-column {
+  position: absolute;
+  right: 0px;
+}
+
+#sidebar {
+  padding-top: 40px;
+  background: #BA5240;
+  height: 100vh;
+  position: fixed;
+}
