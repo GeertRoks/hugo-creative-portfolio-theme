@@ -5,14 +5,15 @@ img[alt="A picture of me"] {
     float: right;
 }
 
-.content-column {
-  position: absolute;
-  right: 0px;
-}
-
-#sidebar {
-  padding-top: 40px;
-  background: #BA5240;
-  height: 100vh;
-  position: fixed;
+@media(min-width: 768px) {
+    .content-column {
+      position: absolute;
+      right: 0px;
+    }
+    #sidebar {
+      padding-top: 40px;
+      background: #BA5240;
+      height: 100vh;
+      position: fixed;
+    }
 }

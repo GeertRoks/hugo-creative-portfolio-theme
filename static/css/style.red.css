@@ -329,10 +329,6 @@ SIDEBAR + RIGHT COLUMN
     padding-left: 0px;
     padding-right: 18px;
   }
-  #sidebar {  
-    height: 100vh;
-    position: fixed;
-  }
 }
 .sidebar-heading {
   font-size: 18px;
@@ -407,10 +403,6 @@ SIDEBAR + RIGHT COLUMN
   .content-column-content {
     padding-left: 40px;
     padding-right: 40px;
-  }
-  .content-column {
-    position: absolute;
-    right: 0px;
   }
 }
 .content-column-content p.lead {
